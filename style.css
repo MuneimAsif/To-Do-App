@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.child-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#inp {
+    border: none;
+    outline: none;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.686);
+    border-radius: 4px;
+    height: 50px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#inp:focus {
+    background-color: rgba(128, 128, 128, 0.122);
+}
+
+#addTaskBtn {
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    height: 50px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgba(0, 128, 0, 0.85);
+    color: white;
+    font-weight: 700;
+}
+
+#addTaskBtn:hover {
+    background-color: rgba(0, 128, 0, 0.596);
+}
+
+#delAllBtn {
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    height: 50px;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgba(0, 128, 0, 0.85);
+    color: white;
+    font-weight: 700;
+}
+
+#delAllBtn:hover {
+    background-color: rgba(0, 128, 0, 0.596);
+
+}
+
+#list li {
+    list-style-type: none;
+    border: 1px solid rgba(0, 0, 0, 0.196);
+    border-radius: 4px;
+    cursor: pointer;
+    height: 50px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.686);
+    font-size: 15px;
+    padding: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+#list li:hover {
+    background-color: rgba(128, 128, 128, 0.122);
+    border: none;
+}
+
+.div1 {
+    text-align: end;
+}
+
+.div2 {
+    text-align: end;
+}
+
+.del {
+    float: right;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+    margin-left: 10px;
+    border-bottom: 2px solid red;
+    letter-spacing: 1px;
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+    font-weight: bolder
+}
+
+.edit {
+    border: none;
+    float: right;
+    border-bottom: 2px solid rgba(27, 157, 157, 0.686);
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0);
+}
+
